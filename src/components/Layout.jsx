@@ -3,11 +3,7 @@ import React from "react";
 import Sidebar from "./Sidebar";
 import MobileNav from "./MobileNav";
 
-interface LayoutProps {
-  children: React.ReactNode;
-}
-
-const Layout: React.FC<LayoutProps> = ({ children }) => {
+const Layout = ({ children }) => {
   return (
     <div className="min-h-screen bg-background">
       <Sidebar />

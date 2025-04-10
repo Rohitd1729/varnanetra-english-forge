@@ -5,7 +5,7 @@ import { CheckCircle, RefreshCw } from "lucide-react";
 
 const GrammarCorrection = () => {
   const [text, setText] = useState("");
-  const [correctedText, setCorrectedText] = useState<string | null>(null);
+  const [correctedText, setCorrectedText] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
 
   const handleCorrection = () => {
