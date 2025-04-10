@@ -20,8 +20,6 @@ const App = () => (
   <QueryClientProvider client={queryClient}>
     <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
       <TooltipProvider>
-        <Toaster />
-        <Sonner />
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Layout><Dashboard /></Layout>} />
@@ -33,6 +31,8 @@ const App = () => (
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
+        <Toaster />
+        <Sonner />
       </TooltipProvider>
     </ThemeProvider>
   </QueryClientProvider>
