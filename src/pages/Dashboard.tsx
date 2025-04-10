@@ -1,6 +1,6 @@
 
 import PageHeader from "../components/PageHeader";
-import { Sparkles, Award, Clock, BookOpen } from "lucide-react";
+import { Sparkles, Award, Clock, BookOpen, Mic, MessageSquare } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Dashboard = () => {
